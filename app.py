@@ -13,7 +13,7 @@ import pandas as pd
 import pickle
 
 # Load your model pipeline
-with open("/content/churn_pipeline.pkl", "rb") as f:
+with open("churn_pipeline.pkl", "rb") as f:
     pipeline = pickle.load(f)
 
 model = pipeline["model"]
