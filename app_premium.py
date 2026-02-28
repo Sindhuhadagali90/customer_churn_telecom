@@ -131,12 +131,11 @@ with st.sidebar:
     st.header("⚙️ Configuration")
     mode = st.radio("Prediction Mode", ["🎯 Single Customer", "📊 Batch Analysis"])
     st.markdown("---")
-    st.subheader("📈 Model Info")
+    st.subheader("📊 Model Info")
     st.metric("Accuracy", "~80%")
     st.markdown("---")
     st.info("Uses ML to predict churn based on customer behavior.")
-
-
+    
 #======== MAIN ========
 if mode == "🎯 Single Customer":
 
